@@ -23,6 +23,7 @@ public class SimpleInstantiationStrategy implements InstantiationStrategy {
 		//获得该Bean的类
 		Class beanClass = beanDefinition.getBeanClass();
 		try {
+			//获得该类的构造器
 			Constructor constructor = beanClass.getDeclaredConstructor();
 			return constructor.newInstance();
 		} catch (Exception e) {
