@@ -2,7 +2,7 @@ package org.springframework.aop;
 
 /**
  * 被代理的目标对象
- *
+ * Target 目标对象，指将要被增强的对象，即包含主业务逻辑类的对象
  * @author derekyi
  * @date 2020/12/6
  */

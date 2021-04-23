@@ -27,4 +27,5 @@ public class ApplicationContextTest {
 		//brand属性在CustomerBeanPostProcessor中被修改为lamborghini
 		assertThat(car.getBrand()).isEqualTo("lamborghini");
 	}
+
 }

@@ -13,8 +13,10 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * @author derekyi
- * @date 2020/12/13
+ * 用properties文件的配置值替换xml文件中的占位符
+ * 在XML配置文件中加入外部属性文件，该类可以将配置文件中的属性值放到一个java properties文件中，
+ * 在XML文件中用${key}替换指定的properties文件中的值，这样的话，只需要针对properties文件进行修改，
+ * 而不用对xml配置文件进行修改
  */
 public class PropertyPlaceholderConfigurer implements BeanFactoryPostProcessor {
 

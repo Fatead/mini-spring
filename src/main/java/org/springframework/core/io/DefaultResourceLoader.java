@@ -4,7 +4,10 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
- * @author derekyi
+ * 资源加载器的实现类，可以加载三种资源，分别是
+ * 1.classpath资源
+ * 2.URL资源
+ * 3.文件资源
  * @date 2020/11/25
  */
 public class DefaultResourceLoader implements ResourceLoader {

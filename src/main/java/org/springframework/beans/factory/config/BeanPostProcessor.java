@@ -12,7 +12,7 @@ public interface BeanPostProcessor {
 
 	/**
 	 * 在bean执行初始化方法之前执行此方法
-	 *
+	 * 前置处理
 	 * @param bean
 	 * @param beanName
 	 * @return
@@ -22,7 +22,7 @@ public interface BeanPostProcessor {
 
 	/**
 	 * 在bean执行初始化方法之后执行此方法
-	 *
+	 * 后置处理
 	 * @param bean
 	 * @param beanName
 	 * @return

@@ -23,8 +23,9 @@ import java.util.List;
 /**
  * 读取配置在xml文件中的bean定义信息
  *
- * @author derekyi
- * @date 2020/11/26
+ * 有了资源加载器，就可以在XML格式配置文件中声明式地定义bean的信息，
+ * 资源加载器读取xml文件，解析出bean的信息，然后往容器中注册BeanDefinition
+ *
  */
 public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 
